@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="SampleProject\static\style.css" />
     <Content Include="SampleProject\templates\index.html" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SampleProject\" />
+    <Folder Include="SampleProject\static\" />
     <Folder Include="SampleProject\templates\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
